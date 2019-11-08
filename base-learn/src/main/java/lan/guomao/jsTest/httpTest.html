@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.3/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+
+    <ul>
+        <li ng-repeat="x in names">
+            {{ x.Name + ', ' + x.Country }}
+        </li>
+    </ul>
+
+</div>
+<script>
+    var app = angular.module("myApp" , []);
+    app.controller("myCtrl" , function($scope , $http){
+        $http({
+            method : "GET",
+            url : 'http://www.runoob.com/try/angularjs/data/sites.php'
+        }).then(function successCallback(response){ //响应成功时调用，response是一个响应对象
+            $scope.names = response.data.sites;
+        } , function errorCallback(response){  ///响应失败时调用，response带有错误信息
+            alert(response.data);
+            alert(response.status);
+        });
+    });
+</script>
+</body>
+</html>

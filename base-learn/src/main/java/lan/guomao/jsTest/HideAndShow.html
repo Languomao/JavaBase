@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller = "Ctrl">
+    <button ng-click = "toggle()">隐藏/显示</button>
+    <p ng-show="switch">
+        名: <input type=text ng-model="firstName"><br>
+        姓: <input type=text ng-model="lastName"><br><br>
+        姓名: {{firstName + " " + lastName}}
+    </p>
+</div>
+<script>
+    var app = angular.module("App" , []);
+    app.controller("Ctrl" ,  function($scope){
+        $scope.firstName = "John";
+        $scope.lastName = "Doe";
+        $scope.switch = false;
+        $scope.toggle = function(){
+            $scope.switch = !$scope.switch ;
+        }
+    });
+</script>
+</body>
+</html>

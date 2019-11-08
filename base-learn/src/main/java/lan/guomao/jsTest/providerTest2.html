@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS学习</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+
+<body>
+<div ng-controller="myCtrl1">
+    <button ng-click="onclick1()">请点击我1</button>
+</div>
+<div ng-controller="myCtrl2">
+    <button ng-click="onclick2()">请点击我2</button>
+</div>
+</body>
+<script type="text/javascript">
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl1', function($scope) {
+    });
+    app.controller('myCtrl2', function($scope) {
+    });
+    app.provider('test', function() {
+        console.log('instance test');
+        var f = function(name) {
+            alert("Hello, " + name);
+        };
+        this.$get = function() { //一定要有！
+            return f;
+        };
+    });
+    app.config(function($provide) {
+        $provide.provider('greeting', function() {
+            console.log('instance greeting ');
+            this.$get = function() {
+                return function(name) {
+                    alert("Hello," + name);
+                };
+            };
+        });
+    });
+    app.service("serviceTest" , function(){
+        console.log('instance serviceTest ');
+        this.$get = function() {
+            return function(name) {
+                alert("Hello," + name);
+            };
+        };
+    });
+</script>
+
+</html>

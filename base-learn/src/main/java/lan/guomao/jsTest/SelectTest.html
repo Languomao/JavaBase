@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller = "myCtrl" >
+    <select ng-init = "selectedName = names[2]" ng-model = "selectedName" ng-options = "x for x in names"></select><br >   //选项是一个对象
+    <select>
+        <option ng-repeat="x in names">{{x}}</option>  //选项是一个字符串
+    </select>
+</div>
+<script>
+    var app = angular.module("myApp" , []);
+    app.controller("myCtrl" , function($scope){
+        $scope.names = ["Google" , "ALIBABA" , "Tecent" , "Runoob"];
+    });
+</script>
+</body>
+</html>

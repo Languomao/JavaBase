@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller = "myCtrl">
+    <select ng-model = "selectedSite" ng-options = "s.name for s in sites">
+    </select>
+    <h1>你选择的是: {{selectedSite}}</h1>  <!--是一个对象-->
+    <h1>你选择的是: {{selectedSite.name}}</h1>
+    <h1>你选择的是: {{selectedSite.url}}</h1>
+</div>
+<script>
+    var app = angular.module("myApp" , []);
+
+    app.controller("myCtrl" , function($scope){
+        $scope.sites = [{name:"languomao" , url:"www.languomao.com"} ,
+            { name:"DoubleSin" , url:"www.DoubleSin.com"} ,
+            {name:"Lankorment" , url:"www.Lankorment.com"}
+        ];
+    });
+</script>
+</body>
+</html>

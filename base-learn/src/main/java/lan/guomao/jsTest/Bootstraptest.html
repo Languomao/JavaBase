@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app = "myApp" ng-controller = "userCtrl">
+<div class = "container">
+
+    <h3>Users</h3>
+
+    <table class = "table table-striped">
+        <thead>  <!--thead标签定义表头-->
+            <tr>
+                <th>编辑</th>
+                <th>姓</th>
+                <th>名</th>
+            </tr>
+        </thead>
+        <tbody ng-repeat = "user in users">
+            <tr>
+                <td>
+                    <button class = "btn" ng-click = "editUser(user.id)">
+                        <span class = "glyphicon glyphicon-pencil"></span>编辑
+                    </button>
+                </td>
+                <td>{{ user.lName }}</td>
+                <td>{{ user.fName }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <button class="btn btn-success" ng-click="editUser('new')">
+        <span class="glyphicon glyphicon-user"></span>创建新用户  <!--glyphicon-user用户图标-->
+    </button>
+    <hr>
+
+    <h3 ng-show="edit">创建新用户:</h3>
+    <h3 ng-hide="edit">编辑用户:</h3>
+    <form class = "form-horizontal"> <!--水平表格-->
+        <div class = "form-group">  <!--表单组-->
+            <label class = "clo-sm-2 control-label">姓:</label> <!--跨越两列，控制器标签，placeholder是占位符-->
+            <div class = "cls-sm-10">
+                <input type="text" ng-model = "lName" ng-disabled = "!edit" placeholder="姓">  <!--edit为真时，input可用，edit为假时，input不可用，编辑时edit为假，创建时edit为真-->
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "clo-sm-2 control-label">名:</label>
+            <div class = "cls-sm-10">
+                <input type="text" ng-model = "fName" ng-disabled = "!edit" placeholder="名">
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "clo-sm-2 control-label">密码:</label>
+            <div class = "cls-sm-10">
+                <input type="password" ng-model = "passw1" placeholder="密码">
+            </div>
+        </div>
+        <div class = "form-group">
+            <label class = "clo-sm-2 control-label">重复密码:</label>
+            <div class = "cls-sm-10">
+                <input type="password" ng-model = "passw2" placeholder="重复密码">
+            </div>
+        </div>
+    </form>
+
+    <hr>
+    <button class = "btn btn-success" ng-diable = "error||incomplete">
+        <span class = "glyphicon glyphicon-save"></span>修改 <!--glyphicon-save保存图标-->
+    </button>
+</div>
+<script src = "myUsers.js"></script>
+</body>
+</html>

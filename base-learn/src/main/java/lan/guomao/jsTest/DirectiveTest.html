@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div>
+    <lan-Guomao></lan-Guomao>
+</div>
+<script>
+    var app = angular.module("App" , []);
+    app.directive("lanGuomao" , function () {
+        return {
+            template:"蓝国茂自定义的指令!"
+        };
+    });
+</script>
+</body>
+</html>

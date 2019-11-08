@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app = "myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller = "myCtrl">
+    <button ng-click="getName()">按钮一</button>
+    <p>{{msg}}</p>
+</div>
+<script>
+     var app = angular.module("myApp" , [] , function($provider){
+         $provider.provider("service01" , function(){
+             this.$get = function(){
+                 return {
+                     msg:"自定义服务。。。。"
+                 }
+             };
+         });
+         $provider.provider("service02" , function(){
+             this.$get = function(){
+                 var myName = "";
+                 var service = {};
+                 service.setName = function (name) {
+                     myName = name;
+                 }
+                 service.getName = function () {
+                     return myName
+                 }
+                 return service;
+             };
+         });
+     });
+     app.controller("myCtrl" , ['$scope', 'service01', 'service02', function ($scope, service01, service02) {
+         console.log(service01);
+         service02.setName("languomao");
+         $scope.getName = function(){
+             alert(service02.getName())
+         }
+     }]);
+</script>
+
+</body>
+</html>

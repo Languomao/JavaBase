@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl" ng-init = "points = [1,2,3,4,5]">
+    名字: <input ng-model="name"><br >
+    当前Url地址: <input ng-model="myUrl"><br >
+    第四个point : <input ng-model = "points[3]" /><br >
+    <p>第三个值为 <span ng-bind="points[2]"></span></p>
+    <ul>
+        <li ng-repeat = "s in points">
+            {{s}}
+        </li>
+    </ul>
+    <runoob-directive></runoob-directive>
+    姓名: {{ name | reverse }}<br >
+    反转:{{name.split("").reverse().join("")}}<!--reverse过滤器其实就是调用了方法处理字符串--><br >
+    分割: {{ name | split}}
+
+    <div  ng-controller="myCtrl2">
+
+        <p>五秒后显示信息:</p>
+
+        <h1>{{msg}}</h1>
+
+    </div>
+
+    <div  ng-controller="myCtrl4">
+
+        <p>计时器:</p>
+
+        <h1>{{time}}</h1>
+
+    </div>
+    <div  ng-controller="myCtrl5">
+
+        <p>计时器:</p>
+
+        <h1>{{time}}</h1>
+
+    </div>
+
+    <div  ng-controller="myCtrl6">
+
+        <p>名字:</p>
+
+        <h1>{{name2}}</h1>
+        <h1>{{age}}</h1>
+
+    </div>
+</div>
+
+<!--<div ng-app="myApp2" ng-controller="myCtrl2" ng-init = "points = [11,12,13,14,15]"> &lt;!&ndash;ng-app指令只有第一次出现的时候起作用，第二次出现不起作用&ndash;&gt;
+    名字: <input ng-model="name"><br >
+    Url: <input ng-model="myUrl"><br >
+    第四个point : <input ng-model = "points[3]" /><br >
+    <p>第三个值为 <span ng-bind="points[2]"></span></p>
+</div>-->
+
+
+
+<script>
+/*    alert(window.location.pathname);
+    alert(window.location.search);
+    alert(window.location.href);*/
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope , $location) {
+        $scope.name = "languomao";
+        $scope.myUrl = $location.absUrl();
+    });
+    app.controller("myCtrl2" , function($scope , $timeout){
+      $scope.msg = "hello";
+      $timeout(function(){
+          $scope.msg = "how are you?";
+      } , 5000);
+    });
+    app.controller("myCtrl3" , function($scope , $http){
+        $http.get("providerTest1.html").then(function (response){
+            $scope.page = response.data;
+        });
+    });
+    app.controller("myCtrl4" , function($scope , $interval){
+        $scope.time = new Date().toLocaleTimeString();
+        $interval(function(){
+            $scope.time = new Date().toLocaleTimeString();
+        },1000);
+    });
+    app.controller("myCtrl5" , function($scope ){
+        $scope.time = new Date().toLocaleTimeString();
+        $scope.setTime = function(){
+            $scope.$apply(function(){
+                $scope.time = new Date().toLocaleTimeString();
+            });
+        };
+        setInterval($scope.setTime, 1000);
+    });
+    app.controller('myCtrl6',function($scope,$timeout){
+        setTimeout(function(){
+            $scope.$apply(function(){
+                $scope.name2="李四";
+            })
+        },2000);
+        $scope.name2="张三";
+        $scope.age='10';
+        $scope.show=function(){
+            $scope.name2='点击后的name';
+        }
+        $timeout(function(){
+            $scope.age='50';
+        },2000);
+    });
+app.filter('reverse', function() { //可以注入依赖
+        return function(text) {
+            return text.split("").reverse().join("");
+        }
+    });
+    app.filter('split' , function(){
+        return function(text){
+            return text.split("").join(",");
+        };
+    });
+    app.directive("runoobDirective", function() {
+        return {
+            template : "<h1>自定义指令!</h1>"
+        };
+    });
+</script>
+
+<p>使用 ng-model 指令来绑定输入域的值到控制器的属性。</p>
+
+</body>
+</html>
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myController">
+    名字: <input ng-model="name">
+</div>
+
+<script >
+    var app = angular.module("myApp" , []);
+    app.service("myService" , function(){
+        var PrivateValue  = "Private";
+        this.Variable  =  "this is public";
+        this.getVariable = function(){return Variable};
+    });
+    app.controller("myController" , function($scope){
+        $scope.notifyServiceOnChage = function(){
+            console.log($scope.WindowHeight);
+        };
+        $scope.name = "languomao";
+    });
+</script>
+
+<p>使用 ng-model 指令来绑定输入域的值到控制器的属性。</p>
+
+</body>
+</html>-->
+
