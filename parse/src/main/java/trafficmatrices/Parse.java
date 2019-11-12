@@ -75,8 +75,8 @@ public class Parse {
                                         }
                                 }
                         }
-                        text += ","+ getDate(inputPath);
-                        text += ","+ getTime(inputPath);
+                        text += ","+ getDate(inputPath)+ " " + getTime(inputPath) + ":00";
+                        //text += ","+ getTime(inputPath);
                         //System.out.println(text);
                         writeToNewFile(outputPath,text);
                 }
