@@ -9,6 +9,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static utils.FileUtils.getAllFileName;
+import static utils.FileUtils.writeToNewFile;
+
 /*
  *
  * 解析欧洲教育网数据为CSV格式
@@ -111,7 +114,7 @@ public class Parse {
         }
 
 
-        public static void writeToNewFile(String file, String conent) {
+        /*public static void writeToNewFile(String file, String conent) {
                 //String file, String conent
                 //String file = "G:\\data\\data2\\test2.txt";
                 //String conent = "dqwfewfwefwe7u4893248924qwfew";
@@ -146,11 +149,11 @@ public class Parse {
                                 //fileNameList.add(tempList[i].toString());
                                 fileNameList.add(tempList[i].toString());
                         }
-                        /*if (tempList[i].isDirectory()) {
+                        *//*if (tempList[i].isDirectory()) {
                                 System.out.println("文件夹：" + tempList[i]);
                                 getAllFileName(path + "\\" + tempList[i]);
-                        }*/
+                        }*//*
                 }
                 return fileNameList;
-        }
+        }*/
 }

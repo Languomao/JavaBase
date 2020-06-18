@@ -33,7 +33,6 @@ public class ReadTxt {
             }
             read.close();
         }catch (Exception e) {
-            // TODO: handle exception
             System.out.println("读取文件--->失败！- 原因：文件路径错误或者文件不存在");
             e.printStackTrace();
         }

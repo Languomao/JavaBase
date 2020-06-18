@@ -1,0 +1,1324 @@
+
+------- 2020-05-28 21:35:15.615794162 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200101,
+        "collection_start_time": 1590716377430,
+        "msg_timestamp": 1590716377430,
+        "collection_end_time": 1590716377431
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716377431,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:18.618245651 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200104,
+        "collection_start_time": 1590716380433,
+        "msg_timestamp": 1590716380433,
+        "collection_end_time": 1590716380434
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716380434,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:21.621326509 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200107,
+        "collection_start_time": 1590716383436,
+        "msg_timestamp": 1590716383436,
+        "collection_end_time": 1590716383437
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716383437,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:24.624284628 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200110,
+        "collection_start_time": 1590716386439,
+        "msg_timestamp": 1590716386439,
+        "collection_end_time": 1590716386440
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716386440,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:27.627338501 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200113,
+        "collection_start_time": 1590716389442,
+        "msg_timestamp": 1590716389442,
+        "collection_end_time": 1590716389443
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716389443,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:30.630381768 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200116,
+        "collection_start_time": 1590716392445,
+        "msg_timestamp": 1590716392445,
+        "collection_end_time": 1590716392446
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716392446,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:33.633417962 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200119,
+        "collection_start_time": 1590716395448,
+        "msg_timestamp": 1590716395448,
+        "collection_end_time": 1590716395450
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716395449,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:36.636436957 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200122,
+        "collection_start_time": 1590716398451,
+        "msg_timestamp": 1590716398451,
+        "collection_end_time": 1590716398452
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716398452,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:39.639406256 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200125,
+        "collection_start_time": 1590716401454,
+        "msg_timestamp": 1590716401454,
+        "collection_end_time": 1590716401455
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716401455,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:42.642620804 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200128,
+        "collection_start_time": 1590716404457,
+        "msg_timestamp": 1590716404457,
+        "collection_end_time": 1590716404459
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716404458,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:45.645521535 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200131,
+        "collection_start_time": 1590716407460,
+        "msg_timestamp": 1590716407460,
+        "collection_end_time": 1590716407462
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716407461,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:48.648550009 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200134,
+        "collection_start_time": 1590716410463,
+        "msg_timestamp": 1590716410463,
+        "collection_end_time": 1590716410464
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716410464,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:51.651699897 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200137,
+        "collection_start_time": 1590716413466,
+        "msg_timestamp": 1590716413466,
+        "collection_end_time": 1590716413468
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716413467,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:54.654557087 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200140,
+        "collection_start_time": 1590716416469,
+        "msg_timestamp": 1590716416469,
+        "collection_end_time": 1590716416470
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716416470,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:35:57.657641069 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200143,
+        "collection_start_time": 1590716419472,
+        "msg_timestamp": 1590716419472,
+        "collection_end_time": 1590716419473
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716419473,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:00.660676424 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200146,
+        "collection_start_time": 1590716422475,
+        "msg_timestamp": 1590716422475,
+        "collection_end_time": 1590716422476
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716422476,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:03.663684608 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200149,
+        "collection_start_time": 1590716425478,
+        "msg_timestamp": 1590716425478,
+        "collection_end_time": 1590716425480
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716425479,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:06.666741758 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200152,
+        "collection_start_time": 1590716428481,
+        "msg_timestamp": 1590716428481,
+        "collection_end_time": 1590716428482
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716428482,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:09.669763689 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200155,
+        "collection_start_time": 1590716431484,
+        "msg_timestamp": 1590716431484,
+        "collection_end_time": 1590716431486
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716431485,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:12.672801418 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200158,
+        "collection_start_time": 1590716434487,
+        "msg_timestamp": 1590716434487,
+        "collection_end_time": 1590716434488
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716434488,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:15.675737976 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200161,
+        "collection_start_time": 1590716437490,
+        "msg_timestamp": 1590716437490,
+        "collection_end_time": 1590716437491
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716437491,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:18.678918544 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200164,
+        "collection_start_time": 1590716440493,
+        "msg_timestamp": 1590716440493,
+        "collection_end_time": 1590716440494
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716440494,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:21.681838046 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200167,
+        "collection_start_time": 1590716443496,
+        "msg_timestamp": 1590716443496,
+        "collection_end_time": 1590716443498
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716443497,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:24.684882723 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200170,
+        "collection_start_time": 1590716446499,
+        "msg_timestamp": 1590716446499,
+        "collection_end_time": 1590716446500
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716446500,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:27.687900156 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200173,
+        "collection_start_time": 1590716449502,
+        "msg_timestamp": 1590716449502,
+        "collection_end_time": 1590716449503
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716449503,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:30.690889668 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200176,
+        "collection_start_time": 1590716452505,
+        "msg_timestamp": 1590716452505,
+        "collection_end_time": 1590716452506
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716452506,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:33.693918898 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200179,
+        "collection_start_time": 1590716455508,
+        "msg_timestamp": 1590716455508,
+        "collection_end_time": 1590716455509
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716455509,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:36.696965775 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200182,
+        "collection_start_time": 1590716458511,
+        "msg_timestamp": 1590716458511,
+        "collection_end_time": 1590716458513
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716458512,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:39.6999636 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200185,
+        "collection_start_time": 1590716461514,
+        "msg_timestamp": 1590716461514,
+        "collection_end_time": 1590716461515
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716461515,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:42.703015982 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200188,
+        "collection_start_time": 1590716464517,
+        "msg_timestamp": 1590716464517,
+        "collection_end_time": 1590716464518
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716464518,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:45.70602664 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200191,
+        "collection_start_time": 1590716467520,
+        "msg_timestamp": 1590716467520,
+        "collection_end_time": 1590716467521
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716467521,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:48.708985269 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200194,
+        "collection_start_time": 1590716470523,
+        "msg_timestamp": 1590716470523,
+        "collection_end_time": 1590716470524
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716470524,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:51.711976684 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200197,
+        "collection_start_time": 1590716473526,
+        "msg_timestamp": 1590716473526,
+        "collection_end_time": 1590716473527
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716473527,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:54.715179214 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200200,
+        "collection_start_time": 1590716476529,
+        "msg_timestamp": 1590716476529,
+        "collection_end_time": 1590716476531
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716476530,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:36:57.718000881 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200202,
+        "collection_start_time": 1590716479532,
+        "msg_timestamp": 1590716479532,
+        "collection_end_time": 1590716479533
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716479533,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:00.721171452 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200204,
+        "collection_start_time": 1590716482535,
+        "msg_timestamp": 1590716482535,
+        "collection_end_time": 1590716482536
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716482536,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:03.724286289 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200207,
+        "collection_start_time": 1590716485538,
+        "msg_timestamp": 1590716485538,
+        "collection_end_time": 1590716485540
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716485539,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:06.727208576 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200210,
+        "collection_start_time": 1590716488541,
+        "msg_timestamp": 1590716488541,
+        "collection_end_time": 1590716488542
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716488542,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:09.73025454 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200213,
+        "collection_start_time": 1590716491544,
+        "msg_timestamp": 1590716491544,
+        "collection_end_time": 1590716491545
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716491545,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:12.733215364 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200216,
+        "collection_start_time": 1590716494547,
+        "msg_timestamp": 1590716494547,
+        "collection_end_time": 1590716494548
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716494548,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:15.736272119 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200219,
+        "collection_start_time": 1590716497550,
+        "msg_timestamp": 1590716497550,
+        "collection_end_time": 1590716497551
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716497551,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:18.739293065 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200222,
+        "collection_start_time": 1590716500553,
+        "msg_timestamp": 1590716500553,
+        "collection_end_time": 1590716500554
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716500554,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:21.742372972 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200225,
+        "collection_start_time": 1590716503556,
+        "msg_timestamp": 1590716503556,
+        "collection_end_time": 1590716503558
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716503557,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:24.745339587 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200228,
+        "collection_start_time": 1590716506559,
+        "msg_timestamp": 1590716506559,
+        "collection_end_time": 1590716506560
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716506560,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:27.74838708 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200231,
+        "collection_start_time": 1590716509562,
+        "msg_timestamp": 1590716509562,
+        "collection_end_time": 1590716509563
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716509563,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:30.751430142 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200234,
+        "collection_start_time": 1590716512565,
+        "msg_timestamp": 1590716512565,
+        "collection_end_time": 1590716512567
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716512566,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:33.754412974 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200237,
+        "collection_start_time": 1590716515568,
+        "msg_timestamp": 1590716515568,
+        "collection_end_time": 1590716515569
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716515569,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:36.757478345 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200240,
+        "collection_start_time": 1590716518571,
+        "msg_timestamp": 1590716518571,
+        "collection_end_time": 1590716518572
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716518572,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
+------- 2020-05-28 21:37:39.76051611 -0400 EDT -------
+Summary: GPB(common) Message [172.18.219.1:52279(ASR9001-PE3)/Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary msg len: 215]
+{
+    "Source": "172.18.219.1:52279",
+    "Telemetry": {
+        "node_id_str": "ASR9001-PE3",
+        "subscription_id_str": "Sub101",
+        "encoding_path": "Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary",
+        "collection_id": 200243,
+        "collection_start_time": 1590716521574,
+        "msg_timestamp": 1590716521574,
+        "collection_end_time": 1590716521575
+    },
+    "Rows": [
+        {
+            "Timestamp": 1590716521575,
+            "Keys": null,
+            "Content": {
+                "adjacency-sids": 0,
+                "links": 0,
+                "nodes": 0,
+                "prefix-sids": 0,
+                "prefixes": 0
+            }
+        }
+    ]
+}
