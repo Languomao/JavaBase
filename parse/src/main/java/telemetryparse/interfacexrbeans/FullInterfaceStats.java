@@ -1,13 +1,14 @@
-package telemetryparse.interfacebeans;
+package telemetryparse.interfacexrbeans;
 
 import java.math.BigDecimal;
 
 /**
- * Classname ContentObject
- * Date 2020/6/15 16:28
+ * Classname FullInterfaceStats
+ * Description TODO
+ * Date 2020/6/19 10:46
  * Created by LanKorment
  */
-public class ContentObject {
+public class FullInterfaceStats {
     public long applique;
     public long availability_flag;
     public long broadcast_packets_received;
@@ -335,7 +336,7 @@ public class ContentObject {
 
     @Override
     public String toString() {
-        return "Content[applique = " + applique + ",availability-flag = " + availability_flag + ",broadcast-packets-received = " + broadcast_packets_received + ",broadcast-packets-sent = "
+        return "full-interface-stats[applique = " + applique + ",availability-flag = " + availability_flag + ",broadcast-packets-received = " + broadcast_packets_received + ",broadcast-packets-sent = "
                 + broadcast_packets_sent + ",bytes-received = " + bytes_received + ",bytes-sent = " + bytes_sent + ",carrier-transitions = " + carrier_transitions
                 + ",crc-errors = " + crc_errors + ",framing-errors-received" + framing_errors_received + ",giant-packets-received = " + giant_packets_received
                 + ",input-aborts = " + input_aborts + ",input-drops = " + input_drops + ",input-errors = " + input_errors + ",input-ignored-packets = " + input_ignored_packets

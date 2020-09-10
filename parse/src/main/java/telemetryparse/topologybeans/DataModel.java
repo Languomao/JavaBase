@@ -50,5 +50,10 @@ public class DataModel {
     @Override
     public String toString() {
         return "Topology[header = "+ header + ",Source = " + source + ",Telemetry = " + telemetry + ",Rows = " + row + "]";
+        /*return header + "," + source + "," + telemetry.node_id_str + "," + telemetry.subscription_id_str + ","+ telemetry.encoding_path + ","
+                + "," + row.get(0).row_timestamp+ "," + row.get(0).keys+ ","
+                + telemetry.collection_id + ","+ telemetry.collection_start_time + ","+ telemetry.msg_timestamp + ","+ telemetry.collection_end_time
+                + "," + row.get(0).content.adjacency_sids+ "," + row.get(0).content.links+ "," + row.get(0).content.nodes
+                + "," + row.get(0).content.prefix_sids+ "," + row.get(0).content.prefixes;*/
     }
 }

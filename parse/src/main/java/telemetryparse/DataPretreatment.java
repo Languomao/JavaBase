@@ -24,7 +24,8 @@ public class DataPretreatment {
             BufferedReader in = new BufferedReader(new FileReader(path));
             String str;
             while ((str = in.readLine()) != null) {
-                //System.out.println(str);
+                //str为原始数据
+                System.out.println(str);
                 buffer.append(str + "\n");
             }
         } catch (IOException e) {

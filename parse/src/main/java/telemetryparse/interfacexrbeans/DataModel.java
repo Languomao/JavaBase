@@ -1,6 +1,7 @@
 package telemetryparse.interfacexrbeans;
 
 import telemetryparse.TelemetryObject;
+
 import java.util.List;
 
 /**

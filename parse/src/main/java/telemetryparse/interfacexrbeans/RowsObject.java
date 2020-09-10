@@ -1,8 +1,5 @@
 package telemetryparse.interfacexrbeans;
 
-import telemetryparse.interfacebeans.ContentObject;
-import telemetryparse.interfacebeans.KeysObject;
-
 /**
  * Classname RowsObject
  * Date 2020/6/15 15:43

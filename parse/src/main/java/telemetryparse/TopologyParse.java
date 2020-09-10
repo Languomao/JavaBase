@@ -1,12 +1,13 @@
 package telemetryparse;
 
-import telemetryparse.topologybeans.KeysObject;
-import telemetryparse.topologybeans.RowsObject;
-import telemetryparse.topologybeans.DataModel;
-import telemetryparse.topologybeans.ContentObject;
+import main.ISubject;
 import org.apache.commons.lang.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import telemetryparse.topologybeans.ContentObject;
+import telemetryparse.topologybeans.DataModel;
+import telemetryparse.topologybeans.KeysObject;
+import telemetryparse.topologybeans.RowsObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,13 +20,14 @@ import static telemetryparse.DataPretreatment.getDataStr;
  * Date 2020/6/12 16:09
  * Created by LanKorment
  * path : Cisco-IOS-XR-infra-xtc-agent-oper:xtc/topology-summary
+ * 需要传入个参数，分别为
  */
-public class TopologyParse {
-    public static void main(String[] args){
+public class TopologyParse implements ISubject {
+    /*public static void main(String[] args){
         StringBuffer strbuff = getDataStr("D:\\WorkSpace\\Telemetry\\dump-topology-summary.txt");
         String[] result = data2str(strbuff);
         parse(result);
-    }
+    }*/
 
     //解析json数据
     public static void parse(String[] strarr){
@@ -102,5 +104,23 @@ public class TopologyParse {
             System.out.println(dataModel);
         }
 
+    }
+
+    @Override
+    public void main(String... args) {
+        if(args.length == 2){
+            String inputpath=args[0];
+            String topic = args[1];
+
+            StringBuffer strbuff = getDataStr(inputpath);
+            String[] result = data2str(strbuff);
+            parse(result);
+
+        }else{
+            System.out.println("TopologyParse Usage: "+
+                    "[zookeeper-connect]  [topic]"
+            );
+            System.exit(-3);
+        }
     }
 }

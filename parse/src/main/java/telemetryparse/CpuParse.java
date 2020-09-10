@@ -104,6 +104,11 @@ public class CpuParse {
                 }
 
                 content.processCPU = processCPU1;
+
+                content.total_cpu_fifteen_minute = obj4.getInt("total-cpu-fifteen-minute");
+                content.total_cpu_five_minute = obj4.getInt("total-cpu-five-minute");
+                content.total_cpu_one_minute = obj4.getInt("total-cpu-one-minute");
+
                 row.content = content;
 
                 rows.add(row);

@@ -1,4 +1,4 @@
-package telemetryparse.statistisbeans;
+package telemetryparse.statisticbeans;
 
 /**
  * Classname RowsObject

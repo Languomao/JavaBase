@@ -1,7 +1,6 @@
-package telemetryparse.statistisbeans;
+package telemetryparse.statisticbeans;
 
 import telemetryparse.TelemetryObject;
-
 import java.util.List;
 
 /**
@@ -49,6 +48,6 @@ public class DataModel {
 
     @Override
     public String toString() {
-        return "Operations[header = "+ header + ",Source = " + source + ",Telemetry = " + telemetry + ",Rows = " + row + "]";
+        return "InterfaceXR[header = "+ header + ",Source = " + source + ",Telemetry = " + telemetry + ",Rows = " + row + "]";
     }
 }

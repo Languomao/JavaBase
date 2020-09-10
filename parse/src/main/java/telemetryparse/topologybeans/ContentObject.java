@@ -55,5 +55,6 @@ public class ContentObject {
     @Override
     public String toString() {
         return "Content[adjacency-sids = " + adjacency_sids + ",links" + links + ",nodes = " + nodes + ",prefix-sids" + prefix_sids + ",prefixes = " + prefixes + "]";
+        //return adjacency_sids + "," + links + "," + nodes + "," + prefix_sids + "," + prefixes;
     }
 }

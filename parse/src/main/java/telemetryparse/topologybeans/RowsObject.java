@@ -37,5 +37,6 @@ public class RowsObject {
     @Override
     public String toString() {
         return "Rows[Timestamp = " + row_timestamp + ",Keys = " + keys + ",Content = " + content + "]";
+        //return row_timestamp + "," + keys + "," + content;
     }
 }

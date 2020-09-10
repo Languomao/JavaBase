@@ -18,6 +18,7 @@ public class KeysObject {
 
     @Override
     public String toString() {
-        return "Key[interface-name = " + interface_name + "]";
+        //return "Key[interface-name = " + interface_name + "]";
+        return interface_name ;
     }
 }
